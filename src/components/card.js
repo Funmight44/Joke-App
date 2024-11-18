@@ -5,7 +5,7 @@ const Card = ({joke}) => {
     const {icon_url, created_at, updated_at, value} = joke;
     return ( 
         <main>
-            <div className="w-80 h-80 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div className="w-80 h-96 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                 <Link to="/">
                     <img className="rounded-t-lg" src={icon_url}  alt="joke" />
                 </Link>

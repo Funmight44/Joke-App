@@ -40,7 +40,6 @@ const Counter = () => {
                     <span className="character">character: {character}</span>
                     <span className="word">word: {wordcount} </span>
                 </div>
-           <Link to='/jokes'> <span>see jokes</span></Link>
         </main>
      );
 }
