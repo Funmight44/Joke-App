@@ -33,7 +33,7 @@ const Counter = () => {
             </section>
 
             <section className="container">
-                <textarea onInput={handleInput}  placeholder="type or paste your text" value={text} className="sm:w-64 md:w-96 lg:w-3/5"/>
+                <textarea onInput={handleInput}  placeholder="type or paste your text" value={text} className=""/>
                 <span onClick={clear} className="clear">Clear</span>
             </section>
                <div className="spans">

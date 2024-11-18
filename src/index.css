@@ -71,6 +71,7 @@ header h1{
 
 textarea{
   height: 250px;
+  width:60% ;
   resize: none;
   font-size: 15px;
   font-weight: 700;
@@ -124,4 +125,6 @@ textarea{
   .jokeLists{
     justify-content: center
   }
+
+  
 }
