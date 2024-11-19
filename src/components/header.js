@@ -18,7 +18,7 @@ const Header = () => {
        <main>
             <header>
                 <div>
-                  <Link to="/"> <h1>Jokes</h1> </Link>
+                  <Link to="/"> <h1>Fun</h1> </Link>
                   <span className="emoji">😂🤣</span>
                 </div>
                 <form onSubmit={getSearch}>
